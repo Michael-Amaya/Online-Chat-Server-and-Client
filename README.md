@@ -1,0 +1,4 @@
+# Chat Server & Client
+The server controls all state, while the client only shows what the server gives it. This is inspired by a video that [Tsoding Daily](https://www.youtube.com/@TsodingDaily) released called [How to Make Multiplayer Online Games](https://www.youtube.com/watch?v=Ih9OkNeg7v8). I wanted to work with sockets in a similar way that was handled in the video. In Python, there isn't the JS on() methods that operate on another thread so I had to handle incoming communication on separate threads. There are likely some buffer issues and exceptions I didn't handle.
+
+If you are interested enough to download and try it and you find a bug, feel free to send me a message/open an issue if that's available. 
